@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.bigred {
+  font-size: 20px;
+  color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: black;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+ul {
+  text-decoration: none;
+}
+
+header {
+  background: url("../img/header-bg.png");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 800px;
+}
+
+.header__logo {
+  width: 150px;
+  height: 150px;
+}
+
+.header__nav {
+  padding-top: 80px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav .header__nav_item > ul {
+  width: 480px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__nav .header__nav_item > ul a {
+  font-size: 12px;
+}
+
+.header__main {
+  max-width: 1440px;
+  height: 450px;
+  margin-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__main_center {
+  max-width: 988px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 96px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  border-bottom: 5px solid #E8C300;
+}
+
+.header__main_center_name {
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+
+.header__button {
+  margin-top: 30px;
+  width: 440px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header__button .header__button_item {
+  color: white;
+  font-size: 12px;
+  width: 200px;
+  text-align: center;
+}
+.header__button .yellow {
+  background-color: #E8C300;
+}
+.header__button .transparent {
+  background: none;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.header__main_icons {
+  width: 60px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.social {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__main_vertical {
+  color: white;
+  font-size: 12px;
+  writing-mode: vertical-rl;
+}
+
+/*# sourceMappingURL=style.css.map */
