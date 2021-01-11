@@ -216,4 +216,51 @@ h1 {
   writing-mode: vertical-rl;
 }
 
+.content {
+  height: 678px;
+}
+
+.content__item {
+  width: 600px;
+  height: 478px;
+}
+
+.content-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content_img {
+  position: fixed;
+}
+
+.figure {
+  margin-top: -500px;
+  margin-left: 300px;
+}
+
+.content-box__text {
+  padding-top: 180px;
+}
+.content-box__text h2 {
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 5px solid #E8C300;
+}
+.content-box__text p {
+  margin-top: 15px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.white {
+  color: black;
+}
+
+.figure__left {
+  margin-left: -200px;
+}
+
 /*# sourceMappingURL=style.css.map */
